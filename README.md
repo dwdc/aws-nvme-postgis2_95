@@ -4,8 +4,7 @@ This package serves as a kickstart for installing PostgreSQL / PostGIS in fresh-
 
 Note: Library configurations are tuned for running Mapbox / OpenMapTiles settings. Reconfigure for other systems if needed.
 
-Package prebuilt for Amazon Linux 4.4.41-36.55.amzn1.x86_64. For mismatch kernel script will try to reconfigure / remake the package.
-
+For mismatch kernel script will try to reconfigure / remake the package.
 
 For user running SSD / NVMe enabled instances, see AWS instruction for mounting. 
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ssd-instance-store.html
@@ -23,3 +22,4 @@ e.g.:
 ./execute.sh /mnt/pgsql 
 ```
 
+The script will take around 20 minutes (original source packages, on i3.large instance installing on NVMe drive)
