@@ -7,10 +7,11 @@ Package prebuilt for Amazon Linux 4.4.41-36.55.amzn1.x86_64. For mismatch kernel
 Execute the script as:
 
 ```bash
-./execute.sh {pg_data_path} ```
+./execute.sh {pg_data_path} 
+```
 
 e.g.:
 
 ```bash
-./execute.sh /mnt/pgsql ```
-
+./execute.sh /mnt/pgsql 
+```
