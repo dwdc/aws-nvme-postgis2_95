@@ -13,10 +13,16 @@ mkdir $1
 chown -R postgres:postgres $1
 sudo -u postgres initdb --username=postgres --pgdata=$1
 
-# Installing GEOS library
+# Installing GEOS-3.6.1
 ./install_geos.sh
 
-# Installing GDAL library
+# Installing PROJ-4.9.3
+./install_proj.sh
+
+# Installing GDAL-2.1.3
 ./install_gdal.sh
 
-# Installing ...
+# Installing PostGIS-2.3.2
+./install_postgis23.sh
+
+echo "Done!"
