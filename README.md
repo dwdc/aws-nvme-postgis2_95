@@ -6,7 +6,12 @@ Note: Library configurations are tuned for running Mapbox / OpenMapTiles setting
 
 Package prebuilt for Amazon Linux 4.4.41-36.55.amzn1.x86_64. For mismatch kernel script will try to reconfigure / remake the package.
 
-Execute the script as:
+
+For user running SSD / NVMe enabled instances, see AWS instruction for mounting. 
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ssd-instance-store.html
+
+
+Execute the script as root to install:
 
 ```bash
 ./execute.sh {pg_data_path} 
