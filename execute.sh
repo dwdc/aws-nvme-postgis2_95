@@ -25,4 +25,7 @@ sudo -u postgres initdb --username=postgres --pgdata=$1
 # Installing PostGIS-2.3.2
 ./install_postgis23.sh
 
+# linking libraries
+ldconfig
+
 echo "Done!"
